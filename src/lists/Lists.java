@@ -11,9 +11,6 @@ package lists;
  */
 public class Lists {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         MyList ml = new MyList();
@@ -22,6 +19,7 @@ public class Lists {
         ml.add(1);  
         
         ml.printContentsList();
+        
         System.out.println("");
         
         ml.printContentByIndex(5);
